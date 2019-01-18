@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 06 23:38:07 IST 2019</td>
+<td>Started on:</td><td>Fri Jan 18 00:05:20 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>63 seconds (63796 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4907 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,27 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Com.API.GetTest.PostAPITest.Getvalidation()'><b>Getvalidation</b><br>Test class: Com.API.GetTest.PostAPITest</td>
-<td><div><pre>java.lang.AssertionError: status code is not 200 expected [400] but found [504]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:652)
-	at Com.API.GetTest.PostAPITest.Getvalidation(PostAPITest.java:81)
+<td><div><pre>com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;&lt;&apos; (code 60)): expected a valid value (number, String, array, object, &apos;true&apos;, &apos;false&apos; or &apos;null&apos;)
+ at [Source: &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Error&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;pre&gt;SyntaxError: Unexpected token &amp;quot;&lt;br&gt; &amp;nbsp; &amp;nbsp;at parse (/app/node_modules/body-parser/lib/types/json.js:83:15)&lt;br&gt; &amp;nbsp; &amp;nbsp;at /app/node_modules/body-parser/lib/read.js:116:18&lt;br&gt; &amp;nbsp; &amp;nbsp;at invokeCallback (/app/node_modules/raw-body/index.js:262:16)&lt;br&gt; &amp;nbsp; &amp;nbsp;at done (/app/node_modules/raw-body/index.js:251:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at IncomingMessage.onEnd (/app/node_modules/raw-body/index.js:307:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at emitNone (events.js:105:13)&lt;br&gt; &amp;nbsp; &amp;nbsp;at IncomingMessage.emit (events.js:207:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at endReadableNT (_stream_readable.js:1059:12)&lt;br&gt; &amp;nbsp; &amp;nbsp;at _combinedTickCallback (internal/process/next_tick.js:138:11)&lt;br&gt; &amp;nbsp; &amp;nbsp;at process._tickCallback (internal/process/next_tick.js:180:9)&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1624)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:689)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3776)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3721)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2726)
+	at Com.API.GetTest.PostAPITest.Getvalidation(PostAPITest.java:99)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,14 +122,28 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace597307515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace597307515'><pre>java.lang.AssertionError: status code is not 200 expected [400] but found [504]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:652)
-	at Com.API.GetTest.PostAPITest.Getvalidation(PostAPITest.java:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace398457879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace398457879'><pre>com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;&lt;&apos; (code 60)): expected a valid value (number, String, array, object, &apos;true&apos;, &apos;false&apos; or &apos;null&apos;)
+ at [Source: &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Error&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;pre&gt;SyntaxError: Unexpected token &amp;quot;&lt;br&gt; &amp;nbsp; &amp;nbsp;at parse (/app/node_modules/body-parser/lib/types/json.js:83:15)&lt;br&gt; &amp;nbsp; &amp;nbsp;at /app/node_modules/body-parser/lib/read.js:116:18&lt;br&gt; &amp;nbsp; &amp;nbsp;at invokeCallback (/app/node_modules/raw-body/index.js:262:16)&lt;br&gt; &amp;nbsp; &amp;nbsp;at done (/app/node_modules/raw-body/index.js:251:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at IncomingMessage.onEnd (/app/node_modules/raw-body/index.js:307:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at emitNone (events.js:105:13)&lt;br&gt; &amp;nbsp; &amp;nbsp;at IncomingMessage.emit (events.js:207:7)&lt;br&gt; &amp;nbsp; &amp;nbsp;at endReadableNT (_stream_readable.js:1059:12)&lt;br&gt; &amp;nbsp; &amp;nbsp;at _combinedTickCallback (internal/process/next_tick.js:138:11)&lt;br&gt; &amp;nbsp; &amp;nbsp;at process._tickCallback (internal/process/next_tick.js:180:9)&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1624)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:689)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:3776)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3721)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2726)
+	at Com.API.GetTest.PostAPITest.Getvalidation(PostAPITest.java:99)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,7 +170,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>63</td>
+<td>4</td>
 <td>Com.API.GetTest.PostAPITest@482f8f11</td></tr>
 </table><p>
 </body>
